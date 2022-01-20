@@ -1,0 +1,163 @@
+body {
+	font-family: Roboto sans-serif;
+	width: 1920px;
+}
+
+
+.header{
+	
+	background-image: url(../images1/R1.jpg);
+	background-repeat: no-repeat;
+	width: 1920px;
+	height: 940px;
+}
+
+	
+.conteiner{
+	width: 1120px;
+	margin: 0 auto;
+	
+	
+}
+.row-header-1{
+margin-top: 16px ;
+
+
+	
+}
+.col-header-1{
+	display: inline-block;
+	background-image: url(../images1/G42.jpg);
+	
+	width: 285px;
+	height: 80px;
+	vertical-align: middle;
+	
+	}
+.col-header-2{
+	width: 226px;
+	margin-left: 374px;
+	display: inline-block;
+
+	text-align: center;
+	margin-top: 36px;
+	margin-bottom: 34px;
+	vertical-align: middle;
+}
+.col-header-3{
+	display: inline-block;
+	width: 153px;
+	vertical-align: middle;
+	margin-top: 24px;
+	margin-bottom: 23px;
+
+
+}
+
+.col-header-2-text{
+	color: #FFFFFF;
+	font-size: 16px;
+	font-family: Roboto;
+	line-height: 20,8px;
+
+	
+
+}
+.col-header-3{
+	display: inline-block;
+	margin-top:36px ;
+	width: 215px;
+	background-color: #886239;
+	height: 44px;
+	text-align: center;
+	border-radius: 22px;
+	padding-top: 12px;
+
+
+}
+
+.row-header-2{
+	margin: 0 auto;
+	width: 1120px;
+}
+
+.row-header-2{
+	border: 1px solid transparent;
+	border-top: ridge #FFFFFF;
+	border-bottom: ridge #FFFFFF;
+}
+
+.phone-number{
+	color: #FFFFFF;
+	
+	font-size: 16px;
+	font-family: Roboto;
+	line-height: 20,8px;
+
+
+}
+ul li{
+	display: inline;
+
+}
+
+.row-header-2-main{
+	margin-left: 128px;
+	padding-top: 27px;
+	padding-bottom: 24px;
+
+}
+a{
+	text-decoration: none;
+}
+.header-main-1{
+	font-size: 16px;
+	font-family: Roboto;
+	line-height: 19px;
+
+	color: #FFFFFF;
+	
+
+}
+.header-main{
+	ffont-size: 16px;
+	font-family: Roboto;
+	line-height: 19px;
+
+	color: #FFFFFF;
+	margin-left: 120px;
+	
+}
+
+.baner{
+	margin: 49px auto 613px auto;
+}
+.baner-text{
+	font-family: PT Serif;
+	font-size: 90px;
+	line-height: 117px;
+	color: #111111;
+	margin: 49px auto 613px auto;
+	text-align: center;
+}
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
