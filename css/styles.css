@@ -6,7 +6,7 @@ body {
 
 .header{
 	
-	background-image: url(../images1/R1.jpg);
+	background-image: url(../images/R1.jpg);
 	background-repeat: no-repeat;
 	width: 1920px;
 	height: 940px;
@@ -27,7 +27,7 @@ margin-top: 16px ;
 }
 .col-header-1{
 	display: inline-block;
-	background-image: url(../images1/G42.jpg);
+	background-image: url(../images/G42.jpg);
 	
 	width: 285px;
 	height: 80px;
