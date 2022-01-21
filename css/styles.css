@@ -1,144 +1,240 @@
 body {
 	font-family: Roboto sans-serif;
+	margin: 0 auto;
 }
 
 
+
 .header{
-	
-	background-image: url(../images/R1.jpg);
+	background-image: url("../images/initial background.jpg");
 	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
 	height: 940px;
 }
 
 	
-.conteiner{
-	width: 1120px;
+.container{
 	margin: 0 auto;
-	
+	width: 1120px;
+	padding: 0;
 	
 }
 .row-header-1{
-margin-top: 16px ;
-
-
-	
+	vertical-align: middle;
+	width: 1120px;
+	margin: 0 auto;
 }
-.col-header-1{
+.col-header-1 {
 	display: inline-block;
-	background-image: url(../images/G42.jpg);
-	
 	width: 285px;
 	height: 80px;
 	vertical-align: middle;
-	
-	}
-.col-header-2{
-	width: 226px;
-	margin-left: 374px;
-	display: inline-block;
-
-	text-align: center;
-	margin-top: 36px;
-	margin-bottom: 34px;
-	vertical-align: middle;
+	outline: 1px solid aqua;
 }
-.col-header-3{
-	display: inline-block;
-	width: 153px;
+.col-header-1-emblem{
+	background-image: url("../images/emblem.png");
+	background-repeat: no-repeat;
 	vertical-align: middle;
-	margin-top: 24px;
-	margin-bottom: 23px;
-
-
+	height: 60px;
+}
+.col-header-2{
+	width: 600px;
+	display: inline-block;
+	text-align: right;
+	vertical-align: middle;
+	outline: 1px solid #111111;
 }
 
 .col-header-2-text{
 	color: #FFFFFF;
 	font-size: 16px;
 	font-family: Roboto;
-	line-height: 20,8px;
+	line-height: 20.8px;
 
 	
 
 }
 .col-header-3{
 	display: inline-block;
-	margin-top:36px ;
-	width: 215px;
+	text-align: right;
+	width: 227px;
+	outline: 1px solid #111111;
+}
+.col-header-3-1{
+	display: inline-block;
 	background-color: #886239;
-	height: 44px;
 	text-align: center;
 	border-radius: 22px;
-	padding-top: 12px;
-
-
+	background-position: right;
+	height: 44px;
+	width: 215px;
 }
 
-.row-header-2{
+
+.row-header-navigation{
 	margin: 0 auto;
-	width: 1120px;
 }
 
-.row-header-2{
+.row-header-navigation-main{
 	border: 1px solid transparent;
 	border-top: ridge #FFFFFF;
 	border-bottom: ridge #FFFFFF;
+	margin: 0;
+	padding-top: 27px;
+	padding-bottom: 24px;
 }
 
 .phone-number{
 	color: #FFFFFF;
-	
 	font-size: 16px;
 	font-family: Roboto;
-	line-height: 20,8px;
-
-
+	line-height: 20.8px;
 }
 ul li{
 	display: inline;
 
 }
 
-.row-header-2-main{
-	margin-left: 128px;
-	padding-top: 27px;
-	padding-bottom: 24px;
-
-}
 a{
 	text-decoration: none;
 }
-.header-main-1{
+.navigation-main-1{
 	font-size: 16px;
 	font-family: Roboto;
 	line-height: 19px;
-
 	color: #FFFFFF;
 	
 
 }
-.header-main{
+.navigation-main{
 	ffont-size: 16px;
 	font-family: Roboto;
 	line-height: 19px;
-
+	padding-top: 27px;
 	color: #FFFFFF;
 	margin-left: 120px;
 	
 }
 
 .baner{
-	margin: 49px auto 613px auto;
+	margin: 49px auto 0 auto;
 }
 .baner-text{
 	font-family: PT Serif;
 	font-size: 90px;
 	line-height: 117px;
 	color: #111111;
-	margin: 49px auto 613px auto;
+	margin: 49px auto 0px auto;
 	text-align: center;
+	outline: 2px solid #111111;
+
 }
-	
+.advertising{
+	margin-top: 400px;
+	width: 422px;
+	text-align: center;
+	outline: 2px solid #111111;
+
+}
+.advertising-text{
+	font-family: Roboto;
+	font-size: 20px;
+	width: 422px;
+	text-align: center;
+
+}
+.section-1-button{
+	width: 250px;
+	margin-top: 20px;
+	height: 60px;
+	background-color: #886239;
+	text-align: center;
+	border-radius: 30px;
+
+}
+.section-1-button-text{
+	margin: 19px auto 20px auto;
+}
+
+.button-select{
+	width: 250px;
+	margin-top: 20px;
+	height: 60px;
+
+}
+.button{
+	display: inline-block;
+	border: none;
+	border-radius: 30px;
+	user-select: none;
+	padding-top: 19px;
+	padding-bottom: 20px;
+	padding-left: 55px;
+	padding-right: 54px;
+
+}
+
+.button-brown{
+	background-color: #886239;
+	color: #FFFFFF;
+	font-size: 18px;
+	line-height: 21px;
+
+}
+.button-brown:hover{
+	cursor: pointer;
+}
+.image{
+	width: 40px;
+	height: 40px;
+	margin: 19.5px auto 14.5px auto;
+}
+.image-center{
+	display: block;
+	margin: 0 auto;
+}
+.cow-main-1{
+	width: 1120px;
+	margin: 100px auto 100px auto;
+	display: inline-block;
+}
+.row-main-1 {
+	width: 256px;
+	display: inline-block;
+	height: 160px;
+}
+
+.image-country{
+	display: inline-block;
+	margin: 0;
+	vertical-align: middle;
+	outline: 1px solid #D9D9DE;
+
+}
+.image-country-1{
+	display: inline-block;
+	margin-top: 0;
+	margin-left: 25px;
+	vertical-align: middle;
+	outline: 1px solid #D9D9DE;
+
+}
+.image-country-text{
+	margin-top: 12px;
+	margin-left: 19px;
+	font-size: 16px;
+	line-height: 18.75px;
+
+}
+.row-main-2{
+margin-top: 32px;
+}
+.row-main-3{
+	margin-top: 32px;
+}
+
+
 
 
 
